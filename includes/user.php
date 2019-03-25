@@ -53,8 +53,3 @@ class User
         }
     }
 }
-
-//$user = new User();
-//echo $user->createUserAccount("test", "test@live.co.uk", "1234567890", "Admin");
-
-//echo $user->userLogin("lewis_432@live.co.uk", "1234567890");
