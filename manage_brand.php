@@ -39,16 +39,6 @@ $last_login = $_SESSION["last_login"];
             </tr>
             </thead>
             <tbody id="get_brand">
-            <!-- <tr>
-                 <td>1</td>
-                 <td>Electronics</td>
-                 <td>Root</td>
-                 <td><a href="#" class="btn btn-success btn-sm">Active</a> </td>
-                 <td>
-                     <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                     <a href="#" class="btn btn-info btn-sm">Edit</a>
-                 </td>
-             </tr>-->
             </tbody>
         </table>
     </div>
