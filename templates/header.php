@@ -1,27 +1,3 @@
-<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="./index.php">Stock Management</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="./index.php"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
-            </li>
-
-            <?php
-//if (isset($_SESSION["userid"])){
-?>
-            <li class="nav-item active">
-                <a class="nav-link" href="logout.php"><i class="fa fa-user"></i> Sign Out </a>
-            </li>
-                <?php
-// }
-?>
-        </ul>
-    </div>
-</nav>-->
 <div class="wrapper">
 
     <nav id="sidebar">
@@ -47,9 +23,6 @@
             <li>
                 <a href="manage_invoice.php"><i class="fas fa-file-invoice" style="margin-right: 4.9%; margin-left: 1%"></i>Invoices</a>
             </li>
-           <!-- <li>
-                <a href="#"><i class="fas fa-envelope" style="margin-right: 3%;"></i>Messaging</a>
-            </li>-->
         </ul>
         <?php
         if (isset($_SESSION["userid"])) {
@@ -100,19 +73,5 @@
                     $(this).toggleClass('active');
                 });
             });
-            /*var t;
-            window.onload = resetTimer();
-            document.onmousemove = resetTimer();
-            document.onkeypress = resetTimer();
-
-            function logout() {
-                alert("Logged out due to inactivity.");
-                window.location.href = 'logout.php';
-            }
-
-            function resetTimer() {
-                clearTimeout(t);
-               t = setTimeout(logout, 1800000)
-
-            }*/
+            
         </script>
